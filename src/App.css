@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #232322;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phrase {
+  -webkit-box-shadow: 1px 2px 10px black;
+          box-shadow: 1px 2px 10px black;
+  width: 80%;
+  height: 200px;
+  background-color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.phrase button {
+  margin: 20px;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-color: #404040;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+  color: white;
+  position: absolute;
+  top: 80%;
+}
+/*# sourceMappingURL=App.css.map */
